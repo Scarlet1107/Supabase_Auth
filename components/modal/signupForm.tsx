@@ -27,7 +27,7 @@ export default function SignUpForm(props: {
       }
       alert("登録完了メールを確認してください");
     } catch (error) {
-      alert("エラーが発生しました");
+      alert("エラーが発生しました\n" + error);
     }
   };
 
